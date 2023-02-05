@@ -32,5 +32,6 @@
 
     <projectListeners>
         <listener class="dev.vortezz.keyboarderrors.listener.ProblemListener" topic="com.intellij.analysis.problemsView.ProblemsListener"/>
+        <listener class="dev.vortezz.keyboarderrors.listener.ProjectListener" topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </projectListeners>
 </idea-plugin>

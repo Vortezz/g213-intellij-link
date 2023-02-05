@@ -1,6 +1,7 @@
 plugins {
     id("java")
     id("org.jetbrains.intellij") version "1.12.0"
+    id("com.github.johnrengelman.shadow") version "7.1.0"
 }
 
 group = "dev.vortezz"
@@ -14,7 +15,6 @@ repositories {
 dependencies {
     implementation("javax.usb:usb-api:1.0.2")
     implementation("org.usb4java:usb4java-javax:1.3.0")
-    implementation("org.hid4java:hid4java:0.7.0")
 }
 
 // Configure Gradle IntelliJ Plugin
